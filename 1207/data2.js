@@ -5,4 +5,4 @@ const stream = require('fs')
 const lines = stream.split('\n')
 
 const [S] = lines
-print(S + '\t')
+print(S + '')
