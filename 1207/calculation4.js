@@ -5,6 +5,6 @@ const stream = require('fs')
 const [A, B, C] = stream.split(' ')
 
 const X = A * A
-const Y = B * B * (C * C)
+const Y = B * B + C * C
 
 print(X, Y)
