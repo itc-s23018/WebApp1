@@ -4,11 +4,7 @@ const stream = require('fs')
   .trim()
 const lines = stream.split('\n')
 
-const [a, ...N] = lines
-
-for (const line of lines) {
-  const str = line.split(',')
-  for (const strs of str) {
-    print(strs)
-  }
-}
+const N = parseInt(lines[0], 10)
+const cols = lines[1].split(',')
+const select = cols.slice(0, N)
+console.log(select.join('\n'))
