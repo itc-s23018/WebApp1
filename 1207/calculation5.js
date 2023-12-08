@@ -1,6 +1,6 @@
 const print = console.log
-const A = 437326
-const B = 9085
+const A = 202
+const B = 134
 const C = 107
 
-print(((A + B) * C) ^ 2)
+print(((A + B) * C) ** 2)
